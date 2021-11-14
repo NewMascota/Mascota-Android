@@ -1,7 +1,8 @@
-package org.mascota.mascota
+package org.mascota.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import org.mascota.mascota.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

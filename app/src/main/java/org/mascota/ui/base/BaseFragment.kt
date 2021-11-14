@@ -1,4 +1,4 @@
-package org.mascota.mascota.ui.base
+package org.mascota.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

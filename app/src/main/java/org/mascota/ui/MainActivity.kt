@@ -1,7 +1,7 @@
 package org.mascota.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import org.mascota.mascota.R
 
 class MainActivity : AppCompatActivity() {

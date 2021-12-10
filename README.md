@@ -18,7 +18,7 @@ New 마스코타 안드로이드
 </tr>
 <tr>
     <td><b>Dependency Injection</b></td>
-<td>Koin</td>
+<td>Hilt</td>
 </tr>
 <tr>
     <td><b>Network</b></td>

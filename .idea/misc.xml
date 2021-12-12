@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.1" />
+        <entry key="app/src/main/res/font/noto_sans_kr.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.13525179856115108" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
       </map>
     </option>

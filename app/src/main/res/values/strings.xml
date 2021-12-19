@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Mascota</string>
+
+    <!--home-->
+    <string name="today">오늘</string>
+
+    <!--tools-->
+    <string name="soeun">최소은</string>
+    <string name="s">의</string>
+    <string name="year2021">2021년</string>
+    <string name="month10">10월</string>
 </resources>

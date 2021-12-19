@@ -15,6 +15,14 @@
     <color name="maco_white">#FFFFFFFF</color>
     <color name="maco_ivory">#F3F1EF</color>
     <color name="maco_light_gray">#C4C4C4</color>
+    <color name="maco_dark_gray">#5D5D5D</color>
+    <color name="maco_dark_gray2">#424242</color>
+    <color name="maco_black">#222222</color>
+    <color name="maco_error">#F17B7B</color>
+    <color name="maco_disabled_gray">#E5E4E2</color>
+    <color name="maco_pink1">#DF97B2</color>
+    <color name="maco_pink2">#F1A0BF</color>
+    <color name="maco_skyblue">#8DC5E4</color>
     <color name="maco_gray">#7D7D7D</color>
     <color name="maco_green">#42976E</color>
 </resources>

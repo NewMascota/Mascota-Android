@@ -17,7 +17,7 @@ object Versions {
     const val roomVersion = "2.3.0"
     const val composeVersion = "1.0.0"
 
-    const val gradleVersion = "7.0.3"
+    const val gradleVersion = "7.0.4"
     const val ktlintVersion = "10.0.0"
     const val googleServiceVersion = "4.3.5"
     const val playCoreVersion = "1.10.0"

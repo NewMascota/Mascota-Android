@@ -49,8 +49,7 @@ class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activ
                             year + 1,
                             MORE
                         )
-                    }
-                    else
+                    } else
                         text = getString(R.string.more)
                 }
 

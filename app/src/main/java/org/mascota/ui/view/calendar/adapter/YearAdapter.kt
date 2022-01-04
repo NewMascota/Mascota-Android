@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import org.mascota.mascota.R
 import org.mascota.mascota.databinding.ItemYearBinding
+import org.mascota.util.extension.getString
 
 class YearAdapter(
     private var itemClickListener: ((Int) -> Unit)? = null
@@ -36,7 +37,7 @@ class YearAdapter(
         holder: YearViewHolder,
         position: Int
     ) {
-        holder.bind(data[position])
+        holder.bind(data[position], itemClickListener)
     }
 
     class YearViewHolder(
@@ -44,8 +45,21 @@ class YearAdapter(
     ) : RecyclerView.ViewHolder(
         binding.root
     ) {
-        fun bind(data: Int) {
-            binding.tvYear.text = "{$data}년"
+        fun bind(data: Int, itemClickListener: ((Int) -> Unit)? = null) {
+            with(binding.tvYear) {
+                text = if (data != MORE)
+                    "${data}년"
+                else
+                    getString(R.string.more)
+            }
+
+            binding.clYear.setOnClickListener {
+                itemClickListener?.invoke(data)
+            }
         }
+    }
+
+    companion object {
+        const val MORE = -1
     }
 }

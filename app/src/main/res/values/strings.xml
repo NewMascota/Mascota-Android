@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Mascota</string>
 
-    <!--home-->
+    <!--calendar-->
     <string name="today">오늘</string>
+    <string name="more">더보기</string>
 
     <!--tools-->
     <string name="soeun">최소은</string>

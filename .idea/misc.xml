@@ -3,14 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="../../../../../layout/custom_preview.xml" value="0.21269520287224974" />
+        <entry key="app/src/main/res/drawable/ic_empty.xml" value="0.11481481481481481" />
         <entry key="app/src/main/res/drawable/selector_arrow.xml" value="0.14907407407407408" />
         <entry key="app/src/main/res/font/noto_sans_kr.xml" value="0.17708333333333334" />
-        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.18421052631578946" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.37467362924281983" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/item_date.xml" value="0.13789821456027032" />
+        <entry key="app/src/main/res/layout/item_date.xml" value="0.3576483975161667" />
         <entry key="app/src/main/res/layout/item_year.xml" value="0.2672837505605156" />
-        <entry key="app/src/main/res/layout/layout_calendar_top.xml" value="0.273759748374452" />
+        <entry key="app/src/main/res/layout/layout_calendar_top.xml" value="0.27133032019695097" />
       </map>
     </option>
   </component>
@@ -19,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="1.2880041317158948" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -36,8 +36,8 @@ jobs:
             -   name: Change gradlew permissions
                 run: chmod +x ./gradlew
 
-            -   name: Build debug APK
-                run: ./gradlew assembleDebug --stacktrace
+#             -   name: Build debug APK
+#                 run: ./gradlew assembleDebug --stacktrace
 
             -   name: On Failed, Notify in Slack
                 if: ${{ failure() }}

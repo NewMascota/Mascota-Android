@@ -55,6 +55,9 @@ dependencies {
     implementation(ThirdPartyDependencies.okHttpLoggingInterceptor)
     implementation(ThirdPartyDependencies.kotlinxSerializationConverter)
 
+    // Logger - Timber
+    implementation(ThirdPartyDependencies.timber)
+
     // Automatic Record OpenSource Library List
     implementation(ThirdPartyDependencies.ossLicense)
 

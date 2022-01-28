@@ -1,4 +1,4 @@
-package org.mascota.util.extension
+package org.mascota.core.util.extension
 
 import android.view.View
 import androidx.annotation.ColorRes

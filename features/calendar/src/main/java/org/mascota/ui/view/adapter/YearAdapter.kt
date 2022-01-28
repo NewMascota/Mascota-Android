@@ -1,12 +1,12 @@
-package org.mascota.ui.view.calendar.adapter
+package org.mascota.ui.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import org.mascota.mascota.R
-import org.mascota.mascota.databinding.ItemYearBinding
-import org.mascota.util.extension.getString
+import org.mascota.R
+import org.mascota.core.util.extension.getString
+import org.mascota.databinding.ItemYearBinding
 
 class YearAdapter(
     private var itemClickListener: ((Int) -> Unit)? = null

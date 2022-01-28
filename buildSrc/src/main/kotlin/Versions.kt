@@ -37,7 +37,7 @@ object Versions {
     const val androidTestVersion = "1.1.3"
     const val ossPluginVersion = "0.10.4"
     const val ossVersion = "17.0.0"
-    const val timberVersion = "4.7.1"
+    const val timberVersion = "5.0.1"
     const val flipperVersion = "0.100.0"
     const val soloaderVersion = "0.10.1"
     const val leakCanaryVersion = "2.6"

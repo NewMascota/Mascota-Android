@@ -1,3 +1,3 @@
 package org.mascota.core
 
-class EmptyFile {}
+class EmptyFile

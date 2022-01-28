@@ -1,3 +1,3 @@
 package org.mascota.data
 
-class EmptyFile { }
+class EmptyFile

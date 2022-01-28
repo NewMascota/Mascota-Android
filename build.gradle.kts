@@ -9,7 +9,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:${Versions.gradleVersion}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
         classpath("org.jlleitschuh.gradle:ktlint-gradle:${Versions.ktlintVersion}")
         classpath(ClassPathPlugins.hilt)
         // NOTE: Do not place your application dependencies here; they belong
@@ -30,6 +30,11 @@ subprojects {
         // Required to download KtLint
         mavenCentral()
     }
+
+    afterEvaluate {
+        project.apply("$rootDir/gradle/common.gradle")
+    }
+
     // Optionally configure plugin
     configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> { debug.set(true) }
 }

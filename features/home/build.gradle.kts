@@ -25,8 +25,8 @@ android {
             isMinifyEnabled = true
 
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
             )
         }
     }
@@ -48,8 +48,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:home"))
-    implementation(project(":features:calendar"))
+    implementation(project(":core:"))
 
     // Android Core
     implementation(KotlinDependencies.kotlin)

@@ -48,8 +48,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:home"))
-    implementation(project(":features:calendar"))
+    implementation(project(":core:"))
 
     // Android Core
     implementation(KotlinDependencies.kotlin)

@@ -6,7 +6,7 @@ New 마스코타 안드로이드
 | 문다빈                                                       | 강수현 |    김송현   |
 | ------------------------------------------------------------ | ------ |--------|
 | ![img](https://github.com/mdb1217.png?size=100)              |![img]()     |![img]()|
-| - [4most](https://github.com/TeamMyDaily/4most-Android) Android 개발자<br>- 가치사자 Android 개발자 | - | - |
+| - [4most](https://github.com/TeamMyDaily/4most-Android) Android 개발자<br>- 가치사자 Android 개발자<br>- 얼리버디 Android 개발자 | - | - |
 
 
 ## 📚 Specification

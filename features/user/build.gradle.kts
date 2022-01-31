@@ -4,54 +4,18 @@ plugins {
     id("kotlin-kapt")
     id("org.jlleitschuh.gradle.ktlint")
     id("dagger.hilt.android.plugin")
+    id("kotlin-android")
 }
 
 android {
-    compileSdk = Constants.compileSdk
-    buildToolsVersion = "30.0.3"
-
-    defaultConfig {
-        applicationId = Constants.packageName
-        minSdk = Constants.minSdk
-        targetSdk = Constants.targetSdk
-        versionCode = Constants.versionCode
-        versionName = Constants.versionName
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = true
-
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
-    compileOptions {
-        sourceCompatibility = Versions.javaVersion
-        targetCompatibility = Versions.javaVersion
-    }
-    kotlinOptions {
-        val options = this as org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
-        options.jvmTarget = Versions.jvmVersion
-    }
     buildFeatures {
         dataBinding = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion = Versions.composeVersion
     }
 }
 
 dependencies {
-    implementation(project(":core:"))
-    implementation(project(":features:user"))
     implementation(project(":features:home"))
-    implementation(project(":features:calendar"))
+    implementation(project(":core:"))
 
     // Android Core
     implementation(KotlinDependencies.kotlin)
@@ -109,8 +73,8 @@ dependencies {
     // kotlinx-serialization-json
     implementation(ThirdPartyDependencies.kotlinxSerializationJsonConverter)
 
-    // Ted Image Picker
-    implementation(ThirdPartyDependencies.tedImagePicker)
+    // lottie
+    implementation(ThirdPartyDependencies.lottie)
 
     // Flipper
     debugApi(ThirdPartyDependencies.flipper)

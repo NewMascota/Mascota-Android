@@ -49,6 +49,7 @@ android {
 
 dependencies {
     implementation(project(":core:"))
+    implementation(project(":features:user"))
     implementation(project(":features:home"))
     implementation(project(":features:calendar"))
 

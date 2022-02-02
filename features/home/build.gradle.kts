@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     kotlin("android")
     id("kotlin-kapt")
     id("org.jlleitschuh.gradle.ktlint")
@@ -7,43 +7,8 @@ plugins {
 }
 
 android {
-    compileSdk = Constants.compileSdk
-    buildToolsVersion = "30.0.3"
-
-    defaultConfig {
-        applicationId = Constants.packageName
-        minSdk = Constants.minSdk
-        targetSdk = Constants.targetSdk
-        versionCode = Constants.versionCode
-        versionName = Constants.versionName
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = true
-
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
-    compileOptions {
-        sourceCompatibility = Versions.javaVersion
-        targetCompatibility = Versions.javaVersion
-    }
-    kotlinOptions {
-        val options = this as org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
-        options.jvmTarget = Versions.jvmVersion
-    }
     buildFeatures {
         dataBinding = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion = Versions.composeVersion
     }
 }
 

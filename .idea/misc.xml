@@ -17,8 +17,9 @@
         <entry key="features/home/src/main/res/layout/activity_main.xml" value="0.11145833333333334" />
         <entry key="features/user/src/main/res/font/noto_sans_kr.xml" value="0.15677083333333333" />
         <entry key="features/user/src/main/res/layout/activity_calendar.xml" value="0.1265625" />
-        <entry key="features/user/src/main/res/layout/activity_splash.xml" value="0.4116626776670485" />
+        <entry key="features/user/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="features/user/src/main/res/layout/item_year.xml" value="0.1265625" />
+        <entry key="features/users/src/main/res/layout/activity_splash.xml" value="0.2296875" />
       </map>
     </option>
   </component>

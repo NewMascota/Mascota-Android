@@ -15,10 +15,13 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun setHandler() {
-        Handler(Looper.getMainLooper()).postDelayed({
-            startMain()
-            finish()
-        }, SPLASH_TIME)
+        Handler(Looper.getMainLooper()).postDelayed(
+            {
+                startMain()
+                finish()
+            },
+            SPLASH_TIME
+        )
     }
 
     private fun startMain() {

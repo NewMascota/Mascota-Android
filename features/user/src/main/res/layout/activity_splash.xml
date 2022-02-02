@@ -8,9 +8,13 @@
     tools:context=".ui.view.SplashActivity">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="78dp"
         android:layout_marginTop="206dp"
+        android:layout_marginEnd="78dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="203:38"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,11 +26,11 @@
         android:id="@+id/tv_splash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/noto_sans_kr_medium"
-        android:textSize="16sp"
         android:layout_marginBottom="60dp"
+        android:fontFamily="@font/noto_sans_kr_medium"
         android:text="@string/splash"
         android:textColor="@color/maco_white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

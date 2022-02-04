@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mascota</string>
+
+    <!--splash-->
+    <string name="splash">반려동물의 일상도, 이별의 순간도 아름답게</string>
+
+    <!--tools-->
+    <string name="soeun">최소은</string>
+    <string name="s">의</string>
+    <string name="year2021">2021년</string>
+    <string name="month10">10월</string>
+</resources>

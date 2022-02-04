@@ -19,11 +19,11 @@ New 마스코타 안드로이드
   </tr>
 <tr>
     <td><b>Design Pattern</b></td>
-<td>Repository Pattern, Delegation Pattern</td>
+<td>Repository Pattern, Delegation Pattern, Multi Module</td>
 </tr>
 <tr>
     <td><b>Jetpack Components</b></td>
-<td>DataBinding, LiveData, ViewModel, Lifecycle, Navigation, ViewPager2</td>
+<td>DataBinding, ViewModel, Lifecycle, Navigation, ViewPager2</td>
 </tr>
 <tr>
     <td><b>Dependency Injection</b></td>

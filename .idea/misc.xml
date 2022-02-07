@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1235" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/drawable/selector_arrow.xml" value="0.14907407407407408" />
         <entry key="app/src/main/res/font/noto_sans_kr.xml" value="0.17708333333333334" />
@@ -17,7 +18,7 @@
         <entry key="features/home/src/main/res/layout/activity_main.xml" value="0.11145833333333334" />
         <entry key="features/user/src/main/res/font/noto_sans_kr.xml" value="0.15677083333333333" />
         <entry key="features/user/src/main/res/layout/activity_calendar.xml" value="0.1265625" />
-        <entry key="features/user/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="features/user/src/main/res/layout/activity_splash.xml" value="0.5045944213867188" />
         <entry key="features/user/src/main/res/layout/item_year.xml" value="0.1265625" />
         <entry key="features/users/src/main/res/layout/activity_splash.xml" value="0.2296875" />
       </map>

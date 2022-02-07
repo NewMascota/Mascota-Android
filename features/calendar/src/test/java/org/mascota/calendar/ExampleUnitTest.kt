@@ -1,4 +1,4 @@
-package org.mascota
+package org.mascota.calendar
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,12 +1,12 @@
-package org.mascota.ui.view
+package org.mascota.calendar.ui.view
 
 import android.os.Bundle
 import java.util.Calendar
-import org.mascota.R
+import org.mascota.calendar.R
+import org.mascota.calendar.databinding.ActivityCalendarBinding
 import org.mascota.core.base.BindingActivity
-import org.mascota.databinding.ActivityCalendarBinding
-import org.mascota.ui.view.adapter.YearAdapter
-import org.mascota.ui.view.adapter.YearAdapter.Companion.MORE
+import org.mascota.calendar.ui.view.adapter.YearAdapter
+import org.mascota.calendar.ui.view.adapter.YearAdapter.Companion.MORE
 
 class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activity_calendar) {
     private val calendar = Calendar.getInstance()

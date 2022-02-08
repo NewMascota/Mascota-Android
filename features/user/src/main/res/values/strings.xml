@@ -1,12 +1,24 @@
 <resources>
     <string name="app_name">Mascota</string>
 
+    <!--login-->
+    <string name="login">로그인</string>
+    <string name="id">아이디</string>
+    <string name="password">패스워드</string>
+    <string name="input_email">이메일 아이디 입력</string>
+    <string name="input_password">비밀번호 입력 (8자 이상)</string>
+
+    <!--signup-->
+    <string name="signup">회원가입</string>
+
+    <!--find_id-->
+    <string name="find_id">아이디 찾기</string>
+
+    <!--re_setting_password-->
+    <string name="re_setting_password">비밀번호 재설정</string>
+
     <!--splash-->
     <string name="splash">반려동물의 일상도, 이별의 순간도 아름답게</string>
 
     <!--tools-->
-    <string name="soeun">최소은</string>
-    <string name="s">의</string>
-    <string name="year2021">2021년</string>
-    <string name="month10">10월</string>
 </resources>

@@ -40,8 +40,8 @@ jobs:
             -   name: Lint Check
                 run: ./gradlew ktlintCheck
 
-#             -   name: Build debug APK
-#                 run: ./gradlew assembleDebug --stacktrace
+            -   name: Build debug APK
+                run: ./gradlew assembleDebug --stacktrace
 
             -   name: On Success!! Congratulations
                 if: ${{ success() }}

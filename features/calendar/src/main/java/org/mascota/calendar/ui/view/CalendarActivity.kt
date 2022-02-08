@@ -4,9 +4,9 @@ import android.os.Bundle
 import java.util.Calendar
 import org.mascota.calendar.R
 import org.mascota.calendar.databinding.ActivityCalendarBinding
-import org.mascota.core.base.BindingActivity
 import org.mascota.calendar.ui.view.adapter.YearAdapter
 import org.mascota.calendar.ui.view.adapter.YearAdapter.Companion.MORE
+import org.mascota.core.base.BindingActivity
 
 class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activity_calendar) {
     private val calendar = Calendar.getInstance()

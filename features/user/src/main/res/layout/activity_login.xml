@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.view.login.LoginActivity">
+
+        <ImageView
+            android:id="@+id/iv_login"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_illust_loginsignup_big"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="328:155"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ic_logo_mascota"
+            app:layout_constraintStart_toStartOf="@+id/iv_login"
+            app:layout_constraintTop_toBottomOf="@+id/iv_login" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:fontFamily="@font/noto_sans_kr_medium"
+            android:text="@string/id"
+            android:textColor="@color/maco_dark_gray"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/iv_login"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/selector_signin_signup_edit_text"
+            android:fontFamily="@font/noto_sans_kr_regular"
+            android:hint="@string/input_email"
+            android:paddingHorizontal="11dp"
+            android:paddingVertical="9dp"
+            android:textColor="@color/maco_black"
+            android:textColorHint="@color/maco_light_gray"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_login"
+            app:layout_constraintStart_toStartOf="@+id/tv_id"
+            app:layout_constraintTop_toBottomOf="@+id/tv_id" />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/noto_sans_kr_medium"
+            android:text="@string/password"
+            android:textColor="@color/maco_dark_gray"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/et_id"
+            app:layout_constraintTop_toBottomOf="@+id/et_id" />
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/selector_signin_signup_edit_text"
+            android:fontFamily="@font/noto_sans_kr_regular"
+            android:hint="@string/input_password"
+            android:paddingHorizontal="11dp"
+            android:paddingVertical="9dp"
+            android:textColor="@color/maco_black"
+            android:textColorHint="@color/maco_light_gray"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_login"
+            app:layout_constraintStart_toStartOf="@+id/tv_password"
+            app:layout_constraintTop_toBottomOf="@+id/tv_password" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_password">
+
+            <TextView
+                android:id="@+id/tv_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/noto_sans_kr_regular"
+                android:text="@string/signup"
+                android:textColor="@color/maco_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@color/maco_light_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_signup"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_find_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/noto_sans_kr_regular"
+                android:text="@string/find_id"
+                android:textColor="@color/maco_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/line"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="12dp"
+                android:background="@color/maco_light_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_find_id"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_find_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/noto_sans_kr_regular"
+                android:text="@string/re_setting_password"
+                android:textColor="@color/maco_gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/line2"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/selector_signin_signup_btn"
+            android:enabled="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="11dp"
+            android:fontFamily="@font/noto_sans_kr_medium"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/maco_white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

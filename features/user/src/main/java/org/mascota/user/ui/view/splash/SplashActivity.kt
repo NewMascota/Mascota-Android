@@ -5,13 +5,14 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import org.mascota.home.ui.view.HomeActivity
+import org.mascota.core.util.extension.setStatusBarColor
 import org.mascota.user.R
 import org.mascota.user.ui.view.login.LoginActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setStatusBarColor(getColor(R.color.maco_orange))
         setHandler()
         setContentView(R.layout.activity_splash)
     }
@@ -28,10 +29,6 @@ class SplashActivity : AppCompatActivity() {
 
     private fun startLogin() {
         startActivity(Intent(this, LoginActivity::class.java))
-    }
-
-    private fun startMain() {
-        startActivity(Intent(this, HomeActivity::class.java))
     }
 
     companion object {

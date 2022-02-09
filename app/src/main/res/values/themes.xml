@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Mascota" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Mascota" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/maco_orange</item>
-        <item name="colorPrimaryVariant">@color/maco_orange</item>
+        <item name="colorPrimaryVariant">@color/maco_ivory</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/maco_ivory</item>
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:includeFontPadding">false</item>
     </style>
 

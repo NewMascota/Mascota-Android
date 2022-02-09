@@ -6,7 +6,6 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import org.mascota.core.util.extension.setStatusBarColor
-import org.mascota.home.ui.view.HomeActivity
 import org.mascota.user.R
 import org.mascota.user.ui.view.login.LoginActivity
 

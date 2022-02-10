@@ -10,6 +10,14 @@
 
     <!--signup-->
     <string name="signup">회원가입</string>
+    <string name="complete_signup">회원가입 완료</string>
+    <string name="signup_welcome">환영합니다! 작가님이 어떤 책을\n만들게 될지 기대됩니다.</string>
+    <string name="double_check">중복 확인</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="password_re_input">비밀번호 재입력</string>
+    <string name="sir">님</string>
+    <string name="terms">가입 시 <u>개인정보취급방침</u>과 <u>이용약관</u>에 동의합니다.</string>
+    <string name="register_pet">환영합니다.\n\n작가님, 이제 책 속 주인공이 될\n반려동물을 등록해 봐요!</string>
 
     <!--find_id-->
     <string name="find_id">아이디 찾기</string>
@@ -21,4 +29,5 @@
     <string name="splash">반려동물의 일상도, 이별의 순간도 아름답게</string>
 
     <!--tools-->
+    <string name="dummy_email">soeun@naver.com</string>
 </resources>

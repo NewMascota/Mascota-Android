@@ -7,6 +7,7 @@ import org.mascota.core.base.BindingActivity
 import org.mascota.home.ui.view.HomeActivity
 import org.mascota.user.R
 import org.mascota.user.databinding.ActivityLoginBinding
+import org.mascota.user.ui.view.signup.SignUpActivity
 
 class LoginActivity : BindingActivity<ActivityLoginBinding>(R.layout.activity_login) {
     private var isValidEmail = false
@@ -21,6 +22,10 @@ class LoginActivity : BindingActivity<ActivityLoginBinding>(R.layout.activity_lo
     private fun initClickEvent() {
         binding.btnLogin.setOnClickListener {
             startMain()
+        }
+
+        binding.tvSignup.setOnClickListener {
+            startSignUp()
         }
     }
 
@@ -51,5 +56,9 @@ class LoginActivity : BindingActivity<ActivityLoginBinding>(R.layout.activity_lo
     private fun startMain() {
         startActivity(Intent(this, HomeActivity::class.java))
         finish()
+    }
+
+    private fun startSignUp() {
+        startActivity(Intent(this, SignUpActivity::class.java))
     }
 }

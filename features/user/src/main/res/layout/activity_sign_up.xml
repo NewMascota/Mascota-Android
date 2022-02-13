@@ -5,6 +5,9 @@
 
     <data>
 
+        <variable
+            name="isSignUpEnd"
+            type="Boolean" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -28,7 +31,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="24dp"
-            android:text="@string/complete_signup"
+            android:enabled="false"
+            android:text="@{isSignUpEnd? @string/go_register_pet : @string/complete_signup}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

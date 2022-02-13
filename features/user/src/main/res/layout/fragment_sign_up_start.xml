@@ -5,6 +5,17 @@
 
     <data>
 
+        <variable
+            name="isIdAvailable"
+            type="Boolean" />
+
+        <variable
+            name="isPasswordAvailable"
+            type="Boolean" />
+
+        <variable
+            name="isPasswordSame"
+            type="Boolean" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -141,14 +152,53 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-<!--        <ImageView-->
-<!--            android:id="@+id/iv_illust"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:src="@drawable/ic_illust_loginsignup_small"-->
-<!--            app:layout_constraintBottom_toTopOf="@+id/tv_agree_terms"-->
-<!--            app:layout_constraintEnd_toEndOf="@+id/tv_agree_terms"-->
-<!--            app:layout_constraintStart_toStartOf="@+id/tv_agree_terms" />-->
+        <TextView
+            android:id="@+id/tv_can_id_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@{isIdAvailable? @string/can_use_id : @string/can_not_use_id}"
+            android:textAppearance="@style/caption"
+            android:textColor="@color/selector_signup_warning"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/et_id"
+            app:layout_constraintTop_toBottomOf="@+id/et_id"
+            tools:text="@string/can_use_id" />
+
+        <TextView
+            android:id="@+id/tv_can_password_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@{isPasswordAvailable? @string/can_use_password : @string/can_not_use_password}"
+            android:textAppearance="@style/caption"
+            android:textColor="@color/selector_signup_warning"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/et_password"
+            app:layout_constraintTop_toBottomOf="@+id/et_password"
+            tools:text="@string/can_use_password" />
+
+        <TextView
+            android:id="@+id/tv_same_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@{isPasswordSame? @string/same_password : @string/not_same_password}"
+            android:textAppearance="@style/caption"
+            android:textColor="@color/selector_signup_warning"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/et_password_check"
+            app:layout_constraintTop_toBottomOf="@+id/et_password_check"
+            tools:text="@string/same_password" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/iv_illust"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="10dp"-->
+        <!--            android:src="@drawable/ic_illust_loginsignup_small"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/tv_agree_terms"-->
+        <!--            app:layout_constraintEnd_toEndOf="@+id/tv_agree_terms"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/tv_agree_terms" />-->
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

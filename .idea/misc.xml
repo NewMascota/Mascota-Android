@@ -30,11 +30,11 @@
         <entry key="features/user/src/main/res/font/noto_sans_kr.xml" value="0.15677083333333333" />
         <entry key="features/user/src/main/res/layout/activity_calendar.xml" value="0.1265625" />
         <entry key="features/user/src/main/res/layout/activity_login.xml" value="0.304571533203125" />
-        <entry key="features/user/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="features/user/src/main/res/layout/activity_sign_up.xml" value="0.2675" />
         <entry key="features/user/src/main/res/layout/activity_sign_up_end.xml" value="0.1" />
         <entry key="features/user/src/main/res/layout/activity_splash.xml" value="0.5045944213867188" />
         <entry key="features/user/src/main/res/layout/fragment_sign_up_end.xml" value="0.3177642822265625" />
-        <entry key="features/user/src/main/res/layout/fragment_sign_up_start.xml" value="0.11864406779661017" />
+        <entry key="features/user/src/main/res/layout/fragment_sign_up_start.xml" value="0.3467889908256881" />
         <entry key="features/user/src/main/res/layout/item_year.xml" value="0.1265625" />
         <entry key="features/users/src/main/res/layout/activity_splash.xml" value="0.2296875" />
       </map>

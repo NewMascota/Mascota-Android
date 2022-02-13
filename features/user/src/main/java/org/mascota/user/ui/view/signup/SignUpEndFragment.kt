@@ -20,5 +20,6 @@ class SignUpEndFragment : BindingFragment<FragmentSignUpEndBinding>(R.layout.fra
 
     private fun initView() {
         binding.tvId.text = viewModel.getEmail()
+        viewModel.setBtnTextChangeEvent(true)
     }
 }

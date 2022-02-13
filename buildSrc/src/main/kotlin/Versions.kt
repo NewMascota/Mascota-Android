@@ -9,7 +9,7 @@ object Versions {
     const val legacySupportVersion = "1.0.0"
     const val hiltVersion = "2.38.1"
     const val navVersion = "2.3.5"
-    const val lifecycleVersion = "2.3.1"
+    const val lifecycleVersion = "2.4.0"
     const val pagingVersion = "3.0.0"
     const val fragmentKtxVersion = "1.3.4"
     const val securityVersion = "1.0.0"

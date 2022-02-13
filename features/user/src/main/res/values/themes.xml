@@ -22,6 +22,11 @@
         <item name="fontFamily">@font/noto_sans_kr_regular</item>
     </style>
 
+    <style name="caption" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+    </style>
+
     <style name="user_sub1" parent="@style/TextAppearance.AppCompat.Caption">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/maco_dark_gray</item>

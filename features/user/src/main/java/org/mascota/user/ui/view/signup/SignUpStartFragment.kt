@@ -83,6 +83,10 @@ class SignUpStartFragment :
                     viewModel.setEmail(etId.text.toString())
                 }
             }
+
+            ibBack.setOnClickListener {
+                requireActivity().finish()
+            }
         }
     }
 

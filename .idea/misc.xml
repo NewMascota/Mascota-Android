@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.7982905069986981" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1235" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/drawable/selector_arrow.xml" value="0.14907407407407408" />
@@ -11,15 +12,37 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_year.xml" value="0.2672837505605156" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14166666666666666" />
+        <entry key="features/calendar/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="features/calendar/src/main/res/drawable/rectangle_fill_ivory_8.xml" value="0.1" />
+        <entry key="features/calendar/src/main/res/drawable/selector_arrow.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/font/noto_sans_kr.xml" value="0.15572916666666667" />
         <entry key="features/calendar/src/main/res/layout/activity_calendar.xml" value="0.12552083333333333" />
         <entry key="features/calendar/src/main/res/layout/activity_home.xml" value="0.12552083333333333" />
-        <entry key="features/home/src/main/res/layout/activity_home.xml" value="0.14947916666666666" />
+        <entry key="features/home/src/main/res/drawable-xxxhdpi/rectangle_fill_orange_bottom_radius_5.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/ic_active_memory.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/ic_active_rainbow.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/ic_illust_home.xml" value="0.32227935791015627" />
+        <entry key="features/home/src/main/res/drawable/ic_inactive_lock.xml" value="0.17919006347656252" />
+        <entry key="features/home/src/main/res/drawable/ic_mypage.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/oval_fill_ivory.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/rectangle_fill_light_ivory_right_radius_8.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/rectangle_fill_orange_radius_5.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/rectangle_fill_white_right_radius_8.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/selector_accept.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/selector_farewell.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/selector_home_item.xml" value="0.1" />
+        <entry key="features/home/src/main/res/drawable/selector_memory.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/selector_ready.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/drawable/selector_write.xml" value="0.1335" />
+        <entry key="features/home/src/main/res/font/noto_sans_kr.xml" value="0.231722958529286" />
+        <entry key="features/home/src/main/res/layout/activity_home.xml" value="0.22318267822265622" />
         <entry key="features/home/src/main/res/layout/activity_main.xml" value="0.11145833333333334" />
+        <entry key="features/home/src/main/res/layout/item_home.xml" value="0.1" />
         <entry key="features/user/src/main/res/drawable/ic_illust_loginsignup_big.xml" value="0.1215" />
         <entry key="features/user/src/main/res/drawable/ic_illust_loginsignup_small.xml" value="0.117" />
         <entry key="features/user/src/main/res/drawable/ic_logo_mascota.xml" value="0.1" />
         <entry key="features/user/src/main/res/drawable/rectangle_border_orange.xml" value="0.117" />
+        <entry key="features/user/src/main/res/drawable/rectangle_border_orange_radius_8.xml" value="0.1" />
         <entry key="features/user/src/main/res/drawable/rectangle_left_gray_8.xml" value="0.101" />
         <entry key="features/user/src/main/res/drawable/rectangle_left_light_gray_radius_8.xml" value="0.117" />
         <entry key="features/user/src/main/res/drawable/rectangle_left_orange_radius_8dp.xml" value="0.101" />

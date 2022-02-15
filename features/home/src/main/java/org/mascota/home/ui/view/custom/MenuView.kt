@@ -11,7 +11,8 @@ import org.mascota.home.R
 import org.mascota.home.databinding.ItemHomeBinding
 
 class MenuView(
-    context: Context, attrs: AttributeSet? = null
+    context: Context,
+    attrs: AttributeSet? = null
 ) : LinearLayout(context, attrs) {
     private val menuItems = (1..5).map {
         ItemHomeBinding.inflate(LayoutInflater.from(context), null, false).apply {
@@ -24,13 +25,15 @@ class MenuView(
         weightSum = 5f
         initView()
         for (i in 0..4) {
-            addView(menuItems[i].root.apply {
-                layoutParams = LayoutParams(
-                    ViewGroup.LayoutParams.MATCH_PARENT,
-                    0,
-                    1f
-                )
-            })
+            addView(
+                menuItems[i].root.apply {
+                    layoutParams = LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        0,
+                        1f
+                    )
+                }
+            )
         }
     }
 
@@ -70,33 +73,23 @@ class MenuView(
 
     private fun setMenuClickEvent() {
         with(menuItems[READY]) {
-            clItem.setOnClickListener {
-
-            }
+            clItem.setOnClickListener { }
         }
 
         with(menuItems[WRITE]) {
-            clItem.setOnClickListener {
-
-            }
+            clItem.setOnClickListener { }
         }
 
         with(menuItems[MEMORY]) {
-            clItem.setOnClickListener {
-
-            }
+            clItem.setOnClickListener { }
         }
 
         with(menuItems[FAREWELL]) {
-            clItem.setOnClickListener {
-
-            }
+            clItem.setOnClickListener { }
         }
 
         with(menuItems[ACCEPT]) {
-            clItem.setOnClickListener {
-
-            }
+            clItem.setOnClickListener { }
         }
     }
 

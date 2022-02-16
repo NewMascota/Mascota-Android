@@ -12,6 +12,7 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_year.xml" value="0.2672837505605156" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14166666666666666" />
+        <entry key="core/src/main/res/drawable/rectangle_fill_white_8.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/rectangle_fill_ivory_8.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/selector_arrow.xml" value="0.1" />

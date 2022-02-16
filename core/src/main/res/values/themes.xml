@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MascotaDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@drawable/rectangle_fill_white_8</item>
+    </style>
+</resources>

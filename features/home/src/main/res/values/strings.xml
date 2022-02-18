@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">home</string>
+
+    <!--home-->
+    <string name="ready">준비하기</string>
+    <string name="ready_explain">5개의 기록을 통해 이별 준비의 첫 단추를\n끼워봅니다.</string>
+    <string name="memory">추억하기</string>
+    <string name="memory_explain">20가지의 질문을 통해 반려동물의 의미를\n정리하세요.</string>
+    <string name="write">기록하기</string>
+    <string name="write_explain">반려동물과의 일상을 기록해 아름다운\n추억을 만드세요.</string>
+    <string name="farewell">이별하기</string>
+    <string name="farewell_explain">언젠가 다가올 이별을 맞이해봅시다.</string>
+    <string name="accept">받아들이기</string>
+    <string name="accept_explain">이별 후 느끼는 감정을 충분히 느끼고\n기록하세요.</string>
+
+    <!--tools-->
+    <string name="writer_soeun">최소은 작가</string>
+    <string name="cobong_and_choco">코봉이, 초코</string>
+</resources>

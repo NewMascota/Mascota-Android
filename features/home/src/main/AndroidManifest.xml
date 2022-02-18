@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mascota.home">
+
+    <application android:theme="@style/Theme.Mascota">
+        <activity
+            android:name=".ui.view.HomeActivity"
+            android:exported="true" />
+    </application>
+</manifest>

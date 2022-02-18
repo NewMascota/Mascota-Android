@@ -1,9 +1,9 @@
 package org.mascota.data.network
 
+import javax.inject.Inject
 import okhttp3.Interceptor
 import okhttp3.Response
 import org.mascota.data.local.MascotaSharedPreferences
-import javax.inject.Inject
 
 class AuthInterceptor @Inject constructor(private val preferences: MascotaSharedPreferences) :
     Interceptor {

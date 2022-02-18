@@ -21,7 +21,7 @@ import retrofit2.Retrofit
 object NetworkModule {
     @Provides
     @Singleton
-    private fun provideHttpLoggingInterceptor(): HttpLoggingInterceptor =
+    fun provideHttpLoggingInterceptor(): HttpLoggingInterceptor =
         HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }
@@ -33,7 +33,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    private fun provideOkHttpClient(
+    fun provideOkHttpClient(
         httpLoggingInterceptor: HttpLoggingInterceptor,
         authInterceptor: AuthInterceptor
     ): OkHttpClient =

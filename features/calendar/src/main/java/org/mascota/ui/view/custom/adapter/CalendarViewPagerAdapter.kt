@@ -11,12 +11,14 @@ class CalendarViewPagerAdapter :
     override fun getItemCount(): Int = MAX_ITEM_COUNT
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CalendarViewHolder {
-        return CalendarViewHolder(CalendarView(parent.context).apply {
-            layoutParams = ViewGroup.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.MATCH_PARENT
-            )
-        })
+        return CalendarViewHolder(
+            CalendarView(parent.context).apply {
+                layoutParams = ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.MATCH_PARENT
+                )
+            }
+        )
     }
 
     override fun onBindViewHolder(

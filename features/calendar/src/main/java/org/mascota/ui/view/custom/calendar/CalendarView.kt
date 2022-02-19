@@ -109,7 +109,8 @@ class CalendarView(context: Context, attrs: AttributeSet? = null) : LinearLayout
                     compCalendar.add(Calendar.DAY_OF_MONTH, 1)
 
                     innerLinearLayout.addView(
-                        item.root, LayoutParams(
+                        item.root,
+                        LayoutParams(
                             ViewGroup.LayoutParams.MATCH_PARENT,
                             ViewGroup.LayoutParams.MATCH_PARENT,
                             1f

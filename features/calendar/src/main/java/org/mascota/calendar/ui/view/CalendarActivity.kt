@@ -7,6 +7,8 @@ import org.mascota.calendar.databinding.ActivityCalendarBinding
 import org.mascota.calendar.ui.view.adapter.YearAdapter
 import org.mascota.calendar.ui.view.adapter.YearAdapter.Companion.MORE
 import org.mascota.core.base.BindingActivity
+import org.mascota.ui.view.custom.adapter.CalendarViewPagerAdapter
+import org.mascota.ui.view.custom.adapter.CalendarViewPagerAdapter.Companion.FIRST_POSITION
 
 class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activity_calendar) {
     private val calendar = Calendar.getInstance()
@@ -37,8 +39,8 @@ class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activ
             MORE
         )
 
-        yearAdapter.setItemClickListener {
-            with(binding) {
+        with(binding) {
+            yearAdapter.setItemClickListener {
                 with(tvYear) {
                     if (it != MORE) {
                         text = "${it}년"
@@ -56,9 +58,14 @@ class CalendarActivity : BindingActivity<ActivityCalendarBinding>(R.layout.activ
                 ibMore.isSelected = !ibMore.isSelected
                 isListVisible = false
             }
-        }
 
-        binding.rvYear.adapter = yearAdapter
+            rvYear.adapter = yearAdapter
+
+            with(vpCalendar) {
+                adapter = CalendarViewPagerAdapter()
+                setCurrentItem(FIRST_POSITION, false)
+            }
+        }
     }
 
     private fun initUi() {

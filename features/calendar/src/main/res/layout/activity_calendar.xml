@@ -134,15 +134,11 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:orientation="vertical"
+            android:clipToPadding="false"
+            android:clipChildren="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/line2" />
-
-        <org.mascota.ui.custom.calendar.CalendarView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/line2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

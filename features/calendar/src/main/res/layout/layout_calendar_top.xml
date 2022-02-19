@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_day_of_week"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:clipChildren="false"
+            android:weightSum="7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-3dp"
+                    android:fontFamily="@font/noto_sans_kr_medium"
+                    android:textColor="@color/maco_black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_sunday"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/month10" />
+
+                <TextView
+                    android:id="@+id/tv_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="@string/sunday"
+                    android:textAppearance="@style/CalendarDayOfWeekTextStyle"
+                    android:textColor="@color/maco_gray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_month" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tv_monday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/monday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+            <TextView
+                android:id="@+id/tv_tuesday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/tuesday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+            <TextView
+                android:id="@+id/tv_wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/wednesday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+            <TextView
+                android:id="@+id/tv_thursday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/thursday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+            <TextView
+                android:id="@+id/tv_friday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/friday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+            <TextView
+                android:id="@+id/tv_saturday"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="@string/saturday"
+                android:textAppearance="@style/CalendarDayOfWeekTextStyle" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:background="@color/maco_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_day_of_week" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

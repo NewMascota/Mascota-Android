@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.7982905069986981" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_empty.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/drawable/selector_arrow.xml" value="0.14907407407407408" />
         <entry key="app/src/main/res/font/noto_sans_kr.xml" value="0.17708333333333334" />
@@ -14,11 +15,16 @@
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14166666666666666" />
         <entry key="core/src/main/res/drawable/rectangle_fill_white_8.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="features/calendar/src/main/res/drawable/ic_paw.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/rectangle_fill_ivory_8.xml" value="0.1" />
+        <entry key="features/calendar/src/main/res/drawable/rectangle_fill_light_gray_8.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/drawable/selector_arrow.xml" value="0.1" />
         <entry key="features/calendar/src/main/res/font/noto_sans_kr.xml" value="0.15572916666666667" />
-        <entry key="features/calendar/src/main/res/layout/activity_calendar.xml" value="0.12552083333333333" />
+        <entry key="features/calendar/src/main/res/layout/activity_calendar.xml" value="0.11538461538461539" />
         <entry key="features/calendar/src/main/res/layout/activity_home.xml" value="0.12552083333333333" />
+        <entry key="features/calendar/src/main/res/layout/item_date.xml" value="0.32905982905982906" />
+        <entry key="features/calendar/src/main/res/layout/item_year.xml" value="0.14272474513438368" />
+        <entry key="features/calendar/src/main/res/layout/layout_calendar_top.xml" value="0.19452757588713127" />
         <entry key="features/home/src/main/res/drawable-xxxhdpi/rectangle_fill_orange_bottom_radius_5.xml" value="0.1335" />
         <entry key="features/home/src/main/res/drawable/ic_active_memory.xml" value="0.1" />
         <entry key="features/home/src/main/res/drawable/ic_active_rainbow.xml" value="0.1" />

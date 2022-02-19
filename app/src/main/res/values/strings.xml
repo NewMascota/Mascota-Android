@@ -1,21 +1,3 @@
 <resources>
     <string name="app_name">Mascota</string>
-
-    <!--calendar-->
-    <string name="today">오늘</string>
-    <string name="more">더보기</string>
-    <string name="monday">월</string>
-    <string name="tuesday">화</string>
-    <string name="wednesday">수</string>
-    <string name="thursday">목</string>
-    <string name="friday">금</string>
-    <string name="saturday">토</string>
-    <string name="sunday">일</string>
-
-    <!--tools-->
-    <string name="soeun">최소은</string>
-    <string name="one">1</string>
-    <string name="s">의</string>
-    <string name="year2021">2021년</string>
-    <string name="month10">10월</string>
 </resources>

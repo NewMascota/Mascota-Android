@@ -12,5 +12,27 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/maco_ivory</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="h1_medium" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
+    <style name="body2" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
+    </style>
+
+    <style name="sub1" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
+    <style name="caption2" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/noto_sans_kr_regular</item>
     </style>
 </resources>

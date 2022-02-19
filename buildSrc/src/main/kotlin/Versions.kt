@@ -1,15 +1,15 @@
 import org.gradle.api.JavaVersion
 
 object Versions {
-    const val kotlinVersion = "1.5.31"
+    const val kotlinVersion = "1.6.10"
     const val coreKtxVersion = "1.6.0"
-    const val appCompatVersion = "1.4.0"
-    const val materialDesignVersion = "1.4.0"
-    const val constraintLayoutVersion = "2.1.2"
+    const val appCompatVersion = "1.4.1"
+    const val materialDesignVersion = "1.5.0"
+    const val constraintLayoutVersion = "2.1.3"
     const val legacySupportVersion = "1.0.0"
     const val hiltVersion = "2.38.1"
     const val navVersion = "2.3.5"
-    const val lifecycleVersion = "2.3.1"
+    const val lifecycleVersion = "2.4.0"
     const val pagingVersion = "3.0.0"
     const val fragmentKtxVersion = "1.3.4"
     const val securityVersion = "1.0.0"
@@ -17,7 +17,7 @@ object Versions {
     const val roomVersion = "2.3.0"
     const val composeVersion = "1.0.0"
 
-    const val gradleVersion = "7.0.4"
+    const val gradleVersion = "7.1.0"
     const val ktlintVersion = "10.0.0"
     const val googleServiceVersion = "4.3.5"
     const val playCoreVersion = "1.10.0"

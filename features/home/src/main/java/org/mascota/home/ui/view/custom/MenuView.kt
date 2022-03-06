@@ -1,12 +1,14 @@
 package org.mascota.home.ui.view.custom
 
 import android.content.Context
+import android.content.Intent
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.core.view.ViewCompat
 import org.mascota.core.util.extension.getString
+import org.mascota.farewell.ui.view.main.FarewellMainActivity
 import org.mascota.home.R
 import org.mascota.home.databinding.ItemHomeBinding
 
@@ -69,6 +71,8 @@ class MenuView(
             tvContent.text = getString(R.string.accept_explain)
             isBottomLineNotVisible = true
         }
+
+        setMenuClickEvent()
     }
 
     private fun setMenuClickEvent() {
@@ -85,7 +89,9 @@ class MenuView(
         }
 
         with(menuItems[FAREWELL]) {
-            clItem.setOnClickListener { }
+            clItem.setOnClickListener {
+                context.startActivity(Intent(context, FarewellMainActivity::class.java))
+            }
         }
 
         with(menuItems[ACCEPT]) {

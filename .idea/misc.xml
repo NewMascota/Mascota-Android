@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.7982905069986981" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_empty.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/drawable/selector_arrow.xml" value="0.14907407407407408" />
@@ -25,10 +26,15 @@
         <entry key="features/calendar/src/main/res/layout/item_date.xml" value="0.32905982905982906" />
         <entry key="features/calendar/src/main/res/layout/item_year.xml" value="0.14272474513438368" />
         <entry key="features/calendar/src/main/res/layout/layout_calendar_top.xml" value="0.19452757588713127" />
-        <entry key="features/farewell/src/main/res/drawable/ic_diarygrid_orange.xml" value="0.1" />
-        <entry key="features/farewell/src/main/res/drawable/ic_home.xml" value="0.1" />
-        <entry key="features/farewell/src/main/res/layout/activity_farewell.xml" value="0.31768035888671875" />
-        <entry key="features/farewell/src/main/res/layout/layout_farewell_main_top.xml" value="0.13725490196078433" />
+        <entry key="features/farewell/src/main/res/drawable/ic_diarygrid_blue.xml" value="0.154" />
+        <entry key="features/farewell/src/main/res/drawable/ic_help.xml" value="0.1" />
+        <entry key="features/farewell/src/main/res/drawable/ic_home.xml" value="0.154" />
+        <entry key="features/farewell/src/main/res/drawable/rectangle_fill_white_right_8.xml" value="0.1" />
+        <entry key="features/farewell/src/main/res/drawable/rectangle_left_blue_8.xml" value="0.1185" />
+        <entry key="features/farewell/src/main/res/font/noto_sans_kr.xml" value="0.11492122335495829" />
+        <entry key="features/farewell/src/main/res/layout/activity_farewell_main.xml" value="0.2472658129161213" />
+        <entry key="features/farewell/src/main/res/layout/item_help.xml" value="0.41914820822572924" />
+        <entry key="features/farewell/src/main/res/layout/layout_farewell_main_top.xml" value="0.20555877685546875" />
         <entry key="features/home/src/main/res/drawable-xxxhdpi/rectangle_fill_orange_bottom_radius_5.xml" value="0.1335" />
         <entry key="features/home/src/main/res/drawable/ic_active_memory.xml" value="0.1" />
         <entry key="features/home/src/main/res/drawable/ic_active_rainbow.xml" value="0.1" />
@@ -49,7 +55,6 @@
         <entry key="features/home/src/main/res/layout/activity_home.xml" value="0.22318267822265622" />
         <entry key="features/home/src/main/res/layout/activity_main.xml" value="0.11145833333333334" />
         <entry key="features/home/src/main/res/layout/item_home.xml" value="0.1" />
-        <entry key="features/user/src/main/res/drawable/ic_diarygrid_orange.xml" value="0.1" />
         <entry key="features/user/src/main/res/drawable/ic_illust_loginsignup_big.xml" value="0.1215" />
         <entry key="features/user/src/main/res/drawable/ic_illust_loginsignup_small.xml" value="0.117" />
         <entry key="features/user/src/main/res/drawable/ic_logo_mascota.xml" value="0.1" />

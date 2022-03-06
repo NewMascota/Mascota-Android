@@ -1,4 +1,13 @@
 <resources>
     <string name="farewell">이별하기</string>
     <string name="collect_memory">추억 모아보기</string>
+
+    <!-- Main -->
+    <string name="help">도움말</string>
+    <!-- tools -->
+    <string name="year2021">2021년</string>
+    <string name="month6_day11">6월 11일</string>
+    <string name="diary_content">수컷이라서 암컷보다는 간단하고 안전한 수술이었는데 그래도 마취된 상태로 가만히 있는 코봉이를 와랄랄루와랄랄루와랄랄루와랄랄루와랄랄루와랄랄루</string>
+    <string name="news1">뉴스1</string>
+    <string name="news_content">무지개다리 건넌 강아지, 방치하지 마세요</string>
 </resources>

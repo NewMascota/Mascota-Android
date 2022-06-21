@@ -52,6 +52,7 @@ dependencies {
     implementation(project(":features:user"))
     implementation(project(":features:home"))
     implementation(project(":features:calendar"))
+    implementation(project(":features:prepare"))
 
     // Android Core
     implementation(KotlinDependencies.kotlin)

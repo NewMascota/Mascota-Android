@@ -15,6 +15,7 @@ android {
 dependencies {
     implementation(project(":core:"))
     implementation(project(":features:calendar:"))
+    implementation(project(":features:prepare:"))
 
     // Android Core
     implementation(KotlinDependencies.kotlin)

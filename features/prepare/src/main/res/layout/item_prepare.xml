@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="isWrite"
+            type="Boolean" />
+
+        <variable
+            name="isTopLineInvisible"
+            type="Boolean" />
+
+        <variable
+            name="isBottomLineInvisible"
+            type="Boolean" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:background="@{isWrite? @drawable/rectangle_fill_light_ivory_radius_8 : @drawable/selector_prepare_question}"
+            android:paddingBottom="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_number"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!--TODO: FONT Ar-->
+            <TextView
+                android:id="@+id/tv_question_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/question_mark"
+                android:textColor="@color/maco_dark_gray2"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/question_mark" />
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/body2"
+                android:textColor="@color/maco_dark_gray2"
+                app:layout_constraintBottom_toBottomOf="@id/tv_question_mark"
+                app:layout_constraintStart_toEndOf="@id/tv_question_mark"
+                tools:text="@string/question" />
+
+            <!--TODO: margin이 이상해요..-->
+            <TextView
+                android:id="@+id/tv_question_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="12dp"
+                android:background="@{isWrite? @drawable/rectangle_fill_light_ivory_radius_8 : @drawable/selector_prepare_question_description}"
+                android:paddingStart="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="4dp"
+                android:text="@{isWrite? @string/answer_read : @string/answer_write}"
+                android:textAppearance="@style/sub2"
+                android:textColor="@{isWrite? @color/maco_gray : @color/maco_light_gray4}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_question" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--TODO Font : Roboto medium // margin-->
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_fill_dark_gray3"
+            android:paddingHorizontal="7dp"
+            android:paddingVertical="3dp"
+            android:textColor="@color/maco_white"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@id/cl_question"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cl_question"
+            tools:text="@string/number_1" />
+
+        <View
+            android:id="@+id/line_top"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/maco_gray"
+            android:visibility="@{isTopLineInvisible? View.INVISIBLE : View.VISIBLE}"
+            app:layout_constraintBottom_toTopOf="@id/tv_number"
+            app:layout_constraintEnd_toEndOf="@id/tv_number"
+            app:layout_constraintStart_toStartOf="@id/tv_number"
+            app:layout_constraintTop_toTopOf="@id/cl_question" />
+
+        <View
+            android:id="@+id/line_bottom"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/maco_gray"
+            android:visibility="@{isBottomLineInvisible? View.INVISIBLE : View.VISIBLE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tv_number"
+            app:layout_constraintStart_toStartOf="@id/tv_number"
+            app:layout_constraintTop_toBottomOf="@id/tv_number" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

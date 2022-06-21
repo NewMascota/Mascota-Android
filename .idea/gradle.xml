@@ -19,10 +19,10 @@
             <option value="$PROJECT_DIR$/features" />
             <option value="$PROJECT_DIR$/features/calendar" />
             <option value="$PROJECT_DIR$/features/home" />
+            <option value="$PROJECT_DIR$/features/prepare" />
             <option value="$PROJECT_DIR$/features/user" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

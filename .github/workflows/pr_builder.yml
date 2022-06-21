@@ -37,9 +37,6 @@ jobs:
             -   name: Change gradlew permissions
                 run: chmod +x ./gradlew
 
-            -   name: Lint Check
-                run: ./gradlew ktlintCheck
-
             -   name: Build debug APK
                 run: ./gradlew assembleDebug --stacktrace
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_diarygrid_blue"
+        tools:context=".ui.view.main.FarewellMainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_farewell_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:spanCount="10"
+            tools:listitem="@layout/item_help"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:foreground="@drawable/ic_rainbow"
+            android:foregroundGravity="center"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            android:backgroundTint="@color/maco_blue"
+            app:fabCustomSize="@dimen/farewell_fab_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

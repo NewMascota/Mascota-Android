@@ -1,0 +1,17 @@
+<resources>
+    <!--Prepare-->
+    <string name="prepare">준비하기</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="question_mark">Q. </string>
+    <string name="question">코봉이의 애칭은 무엇인가요?</string>
+    <string name="answer_write">답변 작성하기</string>
+    <string name="answer_read">작성한 답변 보기</string>
+    <string name="skip">건너뛰기</string>
+    <string name="answer_write_hint">답변을 작성해주세요.</string>
+    <string name="write_finish">작성 완료</string>
+
+</resources>
